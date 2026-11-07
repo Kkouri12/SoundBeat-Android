@@ -1,0 +1,10 @@
+{
+  "appId": "com.soundbeat.player",
+  "appName": "Sound Beat",
+  "webDir": "www",
+  "backgroundColor": "#000000",
+  "android": { "backgroundColor": "#000000" },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true }
+  }
+}

@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/w_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:gravity="center_vertical" android:paddingHorizontal="10dp" android:background="@drawable/sb_w_pill">
+  <ImageView android:id="@+id/w_art" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerCrop"/>
+  <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginHorizontal="10dp">
+    <TextView android:id="@+id/w_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:maxLines="1" android:ellipsize="end"/>
+    <TextView android:id="@+id/w_artist" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#B3FFFFFF" android:textSize="12sp" android:maxLines="1" android:ellipsize="end"/>
+  </LinearLayout>
+  <ImageButton android:id="@+id/w_prev" android:layout_width="38dp" android:layout_height="38dp" android:background="@null" android:tint="#FFFFFF" android:src="@android:drawable/ic_media_previous"/>
+  <ImageButton android:id="@+id/w_pp" android:layout_width="42dp" android:layout_height="42dp" android:background="@drawable/sb_w_btn" android:tint="#FFFFFF" android:src="@android:drawable/ic_media_play"/>
+  <ImageButton android:id="@+id/w_next" android:layout_width="38dp" android:layout_height="38dp" android:background="@null" android:tint="#FFFFFF" android:src="@android:drawable/ic_media_next"/>
+</LinearLayout>
